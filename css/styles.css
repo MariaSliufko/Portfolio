@@ -7,16 +7,19 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 body {
     background: url('img/me.jpg');
     background-position: 0 1000px;
     font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
 }
 
-.contqainer {
+
+
+.container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 3rem;
@@ -68,3 +71,19 @@ p {
 .green-background{
     background-color: aqua;
 }
+
+.topnav {
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 5;
+    border: 1px solid #0d0e0ede;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
