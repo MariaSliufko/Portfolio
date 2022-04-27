@@ -93,3 +93,12 @@ table, th, td {
   img{
       border-radius: 50%;
   }
+
+  /*i {
+      opacity: 0;
+  }
+
+  .link:hover i{
+      opacity: 1;
+      transition: opacity 1s;
+  }*/
