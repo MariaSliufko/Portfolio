@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     box-sizing: border-box;
 }
 
@@ -11,12 +11,22 @@ html {
 }
 
 body {
-    background: url('img/me.jpg');
+    background: url('img/me.jpg') no-repeat top left/cover;
     background-position: 0 1000px;
     font-family: 'Roboto', sans-serif;
     background-color: lightgray;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
+/*
+body{
+    color: lightgrey;
+    background: lightgrey url('../img/e.jpg') no-repeat top left/cover;
     text-align: center;
-}
+    
+} */
 
 
 
