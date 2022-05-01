@@ -113,11 +113,9 @@ table, th, td {
 }
 
 
-.presentation {
-    text-align: center;
-    img
+ul {
+    list-style-type: none;
 }
-
 
 
   
