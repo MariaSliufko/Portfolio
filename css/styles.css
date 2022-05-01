@@ -98,13 +98,10 @@ table, th, td {
   }
 
   .educ {
-      text-align: center;
-  }
+    text-align: left;
+}
 
-  .ollist {
-      text-align: center;
-      list-style: inside;
-  }
+ 
 
   .prefferd {
       width: 50%;
