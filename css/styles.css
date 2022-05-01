@@ -7,7 +7,7 @@
 }
 
 html {
-    font-size: 12px;
+    font-size: 0.7em;
 }
 
 body {
@@ -15,19 +15,12 @@ body {
     background-position: 0 1000px;
     font-family: 'Roboto', sans-serif;
     background-color: lightgray;
-    /*text-align: center;*/
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}  
-/*
-body{
-    color: lightgrey;
-    background: lightgrey url('../img/e.jpg') no-repeat top left/cover;
-    text-align: center;
     
-} */
-
+}  
 
 
 .container {
@@ -64,7 +57,7 @@ p {
     margin-bottom: 2rem;
 }
 
-.btn {
+.found {
     display: inline-block;
     padding: 2.7rem 7,5rem;
     background: #f6f6f6;
@@ -75,7 +68,7 @@ p {
     transition: background 0,5s;
 }
 
-.btn:hover {
+.found:hover {
     background: #dadada;
 }
 
@@ -86,7 +79,7 @@ p {
 .topnav {
     text-align: right;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1.5em;
     padding-right: 5;
     border: 1px solid #0d0e0ede;
     padding-top: 25px;
@@ -103,6 +96,34 @@ table, th, td {
   img{
       border-radius: 50%;
   }
+
+  .educ {
+      text-align: center;
+  }
+
+  .ollist {
+      text-align: center;
+      list-style: inside;
+  }
+
+  .prefferd {
+      width: 50%;
+  }
+
+
+  .social-list {
+    list-style: inside;
+}
+
+
+.presentation {
+    text-align: center;
+    img
+}
+
+
+
+  
 
   /*i {
       opacity: 0;
